@@ -1,0 +1,239 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body { width: 100% }
+
+ul, li, p, div { font-size: 13px; }
+
+.ui-tabs { border: 1px solid #ddd !important; }
+.ui-tabs .ui-tabs-nav li a { padding: 7px 5px; }
+.ui-tabs .ui-tabs-panel { padding: 0.5em 0.7em; }
+
+
+h1, h2, h3, hr { margin: 8px 0px 9px 0px;}
+h1:first-child, h2:first-child, h3:first-child { margin-top: 0px; }
+h2, h3 { border-bottom: 1px solid #bbb; padding-bottom: 2px; }
+
+hr { margin: 18px 0px; }
+
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.1em; margin: 5px 0px; }
+
+.clientName { display: inline-block; }
+#genderSymbol { margin-left: 6px; }
+
+#modulesDropdown { width: 150px; }
+
+.list { list-style-type: none; margin-top: 0px; padding-top: 5px; }
+
+.list li { /*margin-left: -35px;*/ margin-bottom: 5px; }
+.indented li { margin-left: 10px; }
+.centered { text-align: center; }
+
+.buttonicon {
+	float:left;
+	width: 16px;
+	margin-right: 5px;
+}
+
+.label {	font-size: 9px; }
+
+.modules {
+	height: 175px;
+	overflow: auto;
+}
+
+.dividers li{
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dividers li:last-child {
+	border-bottom: 0px;
+}
+
+.no-space { margin-bottom: 0px !important; }
+
+.clear{clear:both;}
+
+#site_url { word-wrap: break-word; }
+
+.bold { font-weight: bold; }
+
+#bugNumField { margin-left: 3px; padding: 5px 0px; }
+
+/* Copy Ticket Utility */
+/*
+#copyTicketNum{color:white;font-size:12px;padding:3px;border:1px solid black;margin:0;border-radius:3px;background:#08234C url(/ui/css/custom-theme/images/ui-bg_highlight-soft_75_08234c_1x100.png) 50% 50% repeat-x;}
+*/
+#copyContainerp{margin:3px 0;}
+#copyContainer{position:relative;padding:0;margin:15px 0 5px;}
+
+#copyLabel{color:#666;font-size:9px;margin:0;padding:0;}
+
+/* Disk Usage Bar Graph */
+.graphcont{padding-top:2px;color:#000;font-weight:700;float:left;}
+.graph{float:left;margin:2px0px;background-color:#cecece;position:relative;width:280px;padding:0;border-radius:3px;}
+.graph.bar{display:block;position:relative;background-image:url(custom/supportwidget/bargraph.gif);background-position:rightcenter;background-repeat:repeat-x;border-right:#538e021pxsolid;text-align:center;color:#fff;height:18px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5em;border-radius:4px!important;}
+.graph.barspan{position:absolute;left:1em;}
+
+/* Site List */
+.moreInfo{position:absolute;width:200px;margin-left:64px;margin-top:-6px;border:#ddd1pxsolid;}
+.infoSection{font:12pxarial;margin-bottom:20px;}
+.hideSection{display:none;}
+.infoSectionh2{font-size:125%;font-weight:bold;color:#990000;margin:0px;margin-bottom:3px;}
+.infoSection.item{float:left;padding:3px;margin:2px;border:#ddd1pxsolid;background-color:#f6f6f6;width:31%;}
+.infoSection.adminitem{margin-left:3px;margin-top:4px;padding-top:4px;border-top:#ddd1pxsolid;}
+
+td, th {padding-left: 3px;}
+th { text-align: left; }
+
+.tableLabel {
+	font-size: 9pt;
+	color: black;
+	font-family: Arial;
+	background-color: #eeeeee;
+	text-align: right;
+	padding: 5px;
+	border: 1px solid #d4d4d4;
+	margin-right: 5px;
+}
+
+#versionTable tr:first-child { font-weight: bold; }
+
+.loaderImg { margin-left: 8px; display: none; }
+
+#easyButton { border: 1px solid #555;
+background: #A51918 url(images/ui-bg_inset-soft_30_a51918_1x100.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #EEE;}
+
+.hidden { display: none; }
+
+.deadlinePast { color: #af1100; font-weight: bold; }
+.deadlineClose { color: #e0a800; }
+.deadlineClear { color: #009619; }
+
+#commentSubmit { padding: 5px;}
+
+#ticketUpdateForm table { margin-bottom: 6px; }
+
+#premadeQueryNote { display: none; }
+
+#serverMsg, #serverData  { display: none; }
+
+
+#sqlResults th, #sqlResults td { padding: 3px; }
+#qSQL { padding: 4px; line-height: 1.4em; margin-bottom: 3px; }
+
+#ssdiv p {
+	margin: 6px 0px;
+}
+
+#tabs-6 p { line-height: 1.5em; }
+
+
+#loadingDiv {
+	width: 100%;
+	position: absolute;
+	top: 42px;
+	height: 100%;
+	background: rgba(255,255,255,0.8); /* updated by Blake to white */
+}
+
+.tag {
+	display: none;
+    margin: 0px 3px;
+    padding: 3px 5px;
+    border-radius: 4px;
+	background-color: #777777;
+	color: white;
+	line-height: 2em;
+	white-space: nowrap;
+}
+
+#composerTag { }
+#themeTag { }
+#cdnDisabledTag { background-color: #a51918; }
+#lowDiskSpaceTag { background-color: orange;}
+#redesignTag { background-color: #2780e3;}
+
+.redesignLink, .applyLink { color: white !important; }
+
+/*
+
+
+#adminURL { font-size: 30px; font-weight: bold; color: #e500ff; text-shadow: 2px 2px 2px #1dff00; background: #ff7b00;}
+
+*/
+/* SPINNING ADMIN URL
+#adminURL { -webkit-transition: All 1s ease;
+-moz-transition: All 1s ease;
+-o-transition: All 1s ease;
+-webkit-transform: rotate(0deg) scale(1);
+-moz-transform: rotate(0deg) scale(1);
+-o-transform: rotate(0deg) scale(1);  }
+#adminURL:hover { -webkit-transform: rotate(360deg) scale(1.50);
+-moz-transform: rotate(360deg) scale(1.50);
+-o-transform: rotate(360deg) scale(1.50); }
+*/
+
+/*
+
+    a[href^="http:"] {
+    display:inline-block;
+    padding-right:14px;
+    background:transparent url(custom/supportwidget/icons/ExternalLink.gif) center right no-repeat;
+    }
+
+    a[href^="mailto:"] {
+    display:inline-block;
+    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/MailTo.gif) center left no-repeat;
+    }
+
+    a[href$='.pdf'] {
+    display:inline-block;    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/PDFIcon.gif) center left no-repeat;
+    }
+
+    a[href$='.swf'], a[href$='.fla'], a[href$='.swd'] {
+    display:inline-block;
+    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/FlashIcon.gif) center left no-repeat;
+    }
+
+    a[href$='.xls'], a[href$='.csv'], a[href$='.xlt'], a[href$='.xlw'] {
+    display:inline-block;
+    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/ExcelIcon.gif) center left no-repeat;
+    }
+
+    a[href$='.ppt'], a[href$='.pps'] {
+    display:inline-block;
+    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/PowerPointIcon.gif) center left no-repeat;
+    }
+
+    a[href$='.doc'], a[href$='.rtf'], a[href$='.txt'], a[href$='.wps'] {
+    display:inline-block;
+    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/WordDocIcon.gif) center left no-repeat;
+    }
+
+    a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
+    display:inline-block;
+    padding-left:20px;
+    line-height:18px;
+    background:transparent url(custom/supportwidget/icons/ZIPIcon.gif) center left no-repeat;
+    }
+	*/
